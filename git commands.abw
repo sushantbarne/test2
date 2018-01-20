@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="32" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Fri Jan 19 12:44:57 2018
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">Sushant</m>
+<m key="dc.date">Fri Jan 19 12:26:37 2018
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="2" edit-time="1237" last-saved="1516346097" uid="92b4cf2c-fce5-11e7-86d3-f7d91af643f0">
+<version id="2" started="1516344997" uid="7490f310-fce8-11e7-86d3-f7d91af643f0" auto="0" top-xid="20"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; font-weight:normal; margin-right:0pt; font-size:12pt; text-decoration:none; margin-bottom:0pt; line-height:1.0; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+<s type="P" name="Heading 3" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:Liberation Sans; font-size:12pt"/>
+<s type="P" name="Plain Text" basedon="Normal" followedby="Current Settings" props="font-family:Courier New"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="19" props="page-margin-header:0.5in; page-margin-footer:0.5in; page-margin-top:0.2500in">
+<p style="Normal" xid="20"><c props="font-family:Times New Roman; font-size:16pt">﻿﻿</c></p>
+<p style="Heading 3" xid="4"><c props="font-family:Times New Roman; font-size:16pt">create a new repository on the command line</c></p>
+<p style="Normal" xid="5"><c props="font-family:Times New Roman; font-size:16pt"></c></p>
+<p style="Plain Text" xid="1"><c props="font-family:Times New Roman; font-size:16pt">echo "# test" &gt;&gt; README.md<br/>git init<br/>git add README.md<br/>git commit -m "first commit"<br/>git remote add origin https://github.com/sushantbarne/test.git<br/>git push -u origin master</c></p>
+<p style="Normal" xid="3"><c props="font-family:Times New Roman; font-size:16pt">﻿</c></p>
+<p style="Normal" xid="11"><c props="font-weight:bold; font-family:Times New Roman; font-size:16pt"></c><c props="font-weight:bold; font-family:Times New Roman; font-size:16pt">push an existing repository from the command line</c></p>
+<p style="Normal" xid="12"><c props="font-weight:bold; font-family:Times New Roman; font-size:16pt"></c></p>
+<p style="Normal" xid="13"><c props="font-family:Times New Roman; font-size:16pt">﻿</c></p>
+<p style="Plain Text" xid="14"><c props="font-family:Times New Roman; font-size:16pt">git remote add origin https://github.com/sushantbarne/test.git<br/>git push -u origin master</c></p>
+<p style="Plain Text" xid="21"><c props="font-family:Times New Roman; font-size:16pt"></c></p>
+<p style="Plain Text" xid="22"><c props="font-family:Times New Roman; font-size:16pt"></c></p>
+<p style="Plain Text" xid="23"><c props="font-weight:bold; font-family:Times New Roman; font-size:16pt">﻿Create a new repository on the command line</c><c props="font-family:Times New Roman; font-size:16pt"><br/> echo "# test" &gt;&gt; README.md<br/> git init<br/> git add README.md<br/> git commit -m "first commit"<br/> git remote add origin </c><a xlink:href="https://github.com/shaileshaku/test.git" xid="24"><c props="font-family:Times New Roman; font-size:16pt">https://github.com/shaileshaku/test.git</c></a><c props="font-family:Times New Roman; font-size:16pt"><br/> git push -u origin master<br/> create branch<br/> git checkout -b {branchname}<br/> commit <br/>git commit -m “message”<br/> push source<br/> git push -u origin {branch}</c></p>
+<p style="Plain Text" xid="32"><c props="font-family:Times New Roman; font-size:16pt"></c></p>
+<p style="Normal" xid="28"><c props="font-family:Times New Roman; font-size:16pt"></c></p>
+<p style="Normal" xid="29"><c props="font-weight:bold; font-family:Times New Roman; font-size:16pt">﻿switch branch</c><c props="font-family:Times New Roman; font-size:16pt"><br/> git checkout master</c></p>
+<p style="Normal" xid="30"><c props="font-family:Times New Roman; font-size:16pt"></c></p>
+<p style="Normal" xid="31"><c props="font-family:Times New Roman; font-size:16pt"></c></p>
+<p style="Normal" xid="15"><c props="font-family:Times New Roman; font-size:16pt"></c></p>
+<p style="Normal" xid="9"><c></c></p>
+</section>
+</abiword>
